@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Main Menu Theme -->
+    <style name="MainMenuStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/navBar</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Dialog Theme -->
+    <style name="dialog" parent="Theme.AppCompat.Dialog">
+
+    </style>
+
+    <!-- Menu Button Title Theme -->
+    <style name="MenuTitle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/titleText</item>
+        <item name="android:textSize">@dimen/navTxtSize</item>
+    </style>
+
+    <!-- Title Theme -->
+    <style name="TitleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/navBar</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/titleText</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Overflow Menu Theme -->
+    <style name="OverflowTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@color/titleText</item>
+        <item name="android:textColorSecondary">@color/titleText</item>
+    </style>
+
+    <!-- Input Titles -->
+    <style name="InputTitle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">@dimen/inputTitleTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/inputTitleColor</item>
+    </style>
+
+    <!-- Input Box Style -->
+    <style name="InputBoxStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">@dimen/inputBoxTextSize</item>
+        <item name="android:padding">@dimen/inputBoxPadding</item>
+        <item name="android:layout_marginLeft">@dimen/inputBoxLeftMargin</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="settingsTitle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">@dimen/settingsTitleSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

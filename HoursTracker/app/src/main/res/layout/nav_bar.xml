@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/MainMenuStyle"
+    android:id="@+id/nav_bar">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/homeBtn"
+            android:layout_width="@dimen/navBtnSize"
+            android:layout_height="@dimen/navBtnSize"
+            android:background="@mipmap/home_button"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginRight="@dimen/navBtnMargin"/>
+
+        <Button
+            android:id="@+id/addHoursBtn"
+            android:layout_width="@dimen/navBtnSize"
+            android:layout_height="@dimen/navBtnSize"
+            android:background="@mipmap/add_hours"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginRight="@dimen/navBtnMargin"/>
+
+        <Button
+            android:id="@+id/addJobBtn"
+            android:layout_width="@dimen/navBtnSize"
+            android:layout_height="@dimen/navBtnSize"
+            android:background="@mipmap/add_job"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginRight="@dimen/navBtnMargin"/>
+
+        <Button
+            android:id="@+id/manageBtn"
+            android:layout_width="@dimen/navBtnSize"
+            android:layout_height="@dimen/navBtnSize"
+            android:background="@mipmap/job_manager"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_marginLeft="@dimen/navBtnMargin"/>
+
+        <TextView
+            android:id="@+id/homeLabel"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="@string/homeLbl"
+            android:layout_gravity="center"
+            android:theme="@style/MenuTitle" />
+
+        <TextView
+            android:id="@+id/hoursLabel"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="@string/hoursLbl"
+            android:layout_gravity="center"
+            android:theme="@style/MenuTitle" />
+
+        <TextView
+            android:id="@+id/addJobLabel"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:text="@string/addJobLbl"
+            android:layout_gravity="center"
+            android:theme="@style/MenuTitle" />
+
+        <TextView
+            android:id="@+id/manageLabel"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:text="@string/manageJobLbl"
+            android:layout_gravity="center"
+            android:theme="@style/MenuTitle" />
+    </GridLayout>
+
+</android.support.v7.widget.Toolbar>

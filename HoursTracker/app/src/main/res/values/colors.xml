@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Input Colors -->
+    <color name="inputTitleColor">#000</color>
+
+    <!-- Navigation and title bar colors -->
+    <color name="navBar">#00067F</color>
+    <color name="titleText">#DBD8D8</color>
+</resources>

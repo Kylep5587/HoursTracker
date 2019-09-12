@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageJobs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <!-- Title Bar -->
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/navBar"
+            android:textColorSecondary="@color/titleText"
+            android:theme="@style/OverflowTheme"
+            android:id="@+id/title_bar">
+
+            <!-- Actual text container for title -->
+            <TextView
+                android:id="@+id/settingsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TitleTheme"
+                android:text="@string/settingsLbl" />
+        </android.support.v7.widget.Toolbar>
+
+        <!-- Main Menu -->
+        <include
+            layout = "@layout/nav_bar">
+        </include>
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/appDefaultsTitle"
+            style="@style/settingsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp"
+            android:text="@string/defaultsTitle" />
+
+        <TextView
+            android:id="@+id/defaultStartLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="180dp"
+            android:text="@string/defaultStartLbl" />
+
+        <EditText
+            android:id="@+id/defaultStartTime"
+            android:inputType="time"
+            android:layout_width="@dimen/timeInputWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="130dp"/>
+
+        <Spinner
+            android:id="@+id/defaultStartAMPM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/defaultStartLbl"
+            android:layout_marginLeft="250dp"/>
+
+        <TextView
+            android:id="@+id/endTimeLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/defaultStartLbl"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="225dp"
+            android:text="@string/endTimeLbl" />
+
+        <EditText
+            android:id="@+id/defaultEndTime"
+            android:inputType="time"
+            android:layout_width="@dimen/timeInputWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="130dp"/>
+
+        <Spinner
+            android:id="@+id/defaultEndAMPM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/endTimeLbl"
+            android:layout_marginLeft="250dp"/>
+
+        <TextView
+            android:id="@+id/defaultLunchLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/defaultStartLbl"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="270dp"
+            android:text="@string/lunchLbl" />
+
+        <EditText
+            android:id="@+id/defaultLunchDuration"
+            android:inputType="number"
+            android:layout_width="@dimen/timeInputWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="255dp"
+            android:layout_marginLeft="130dp"/>
+
+        <Button
+            android:id="@+id/saveDefaultBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="310dp"
+            android:text="@string/saveBtnLbl" />
+
+        <Button
+            android:id="@+id/clearHoursBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/saveDefaultBtn"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:text="CLEAR HOURS" />
+
+        <Button
+            android:id="@+id/clearJobsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/clearHoursBtn"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="CLEAR JOBS" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageJobs"
+    tools:showIn="@layout/activity_manage_jobs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <!-- Title Bar -->
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/navBar"
+            android:textColorSecondary="@color/titleText"
+            android:theme="@style/OverflowTheme"
+            android:id="@+id/title_bar">
+
+            <!-- Actual text container for title -->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TitleTheme"
+                android:text="@string/reportsLbl" />
+        </android.support.v7.widget.Toolbar>
+
+        <!-- Main Menu -->
+        <include
+            layout = "@layout/nav_bar">
+        </include>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

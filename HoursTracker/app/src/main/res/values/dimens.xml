@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="inputTitleTextSize">14sp</dimen>
+    <dimen name="inputBoxTextSize">14sp</dimen>
+    <dimen name="timeInputWidth">100dp</dimen>
+    <dimen name="lunchDurationWidth">50dp</dimen>
+    <dimen name="inputBoxPadding">10dp</dimen>
+    <dimen name="inputBoxLeftMargin">15dp</dimen>
+
+    <!-- Navigation -->
+    <dimen name="navBtnSize">72dp</dimen>
+    <dimen name="navTxtSize">14sp</dimen>
+    <dimen name="navBtnMargin">3dp</dimen>
+
+    <dimen name="settingsTitleSize">18sp</dimen>
+
+</resources>

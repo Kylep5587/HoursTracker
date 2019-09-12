@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Hours Tracker</string>
+
+    <!-- Main Menu Button Labels -->
+    <string name="homeLbl">Home</string>
+    <string name="hoursLbl">Add Hours</string>
+    <string name="addJobLbl">Add Job</string>
+    <string name="manageJobLbl">Manage Jobs</string>
+
+    <!-- Overflow Option Titles -->
+    <string name="settingsLbl">Settings</string>
+    <string name="manageHoursLbl">Manage Hours</string>
+    <string name="reportsLbl">Reports</string>
+
+    <string name="title_activity_add_hours">AddHours</string>
+    <string name="title_activity_add_job">AddJob</string>
+    <string name="title_activity_manage_jobs">ManageJobs</string>
+
+    <!-- Main Activity -->
+    <string name="totalHoursLbl">Total Hour Entries:</string>
+    <string name="totalJobsLbl">Total Job Entries:</string>
+    <string name="currentWeekHrsLbl">Hours This Week:</string>
+    <string name="mostRecentEntryLbl">Most Recent Entry:</string>
+    <string name="recentHours">Hours:</string>
+
+    <!-- Add Jobs Activity -->
+    <string name="dateLbl">Date:</string>
+    <string name="startTimeLbl">Start Time:</string>
+    <string name="endTimeLbl">End Time:</string>
+    <string name="lunchLbl">Lunch:</string>
+    <string name="jobNameLbl">Job Name:</string>
+    <string name="defaultStartTime">8:00</string>
+    <string name="defaultEndTime">5:00</string>
+    <string name="defaultLunchDuration">30</string>
+    <string name="saveBtnLbl">SAVE</string>
+
+    <!-- AM/PM Spinner -->
+    <string-array name="ampmSpinner">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <!-- Duration Type Spinner (Lunch) -->
+    <string-array name="durationType">
+        <item>Minutes</item>
+        <item>Hours</item>
+    </string-array>
+    <string name="title_activity_manage_hours">ManageHours</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_reports">Reports</string>
+
+    <!-- Settings Page -->
+    <string name="defaultsTitle">Application Defaults</string>
+    <string name="defaultStartLbl">Start Time:</string>
+    <string name="defualtEndLbl">End Time:</string>
+
+    <!-- Job Manager -->
+    <string name="selectJob">Select Job:</string>
+    <string name="cancelBtnLbl">Cancel</string>
+    <string name="activeSwitchLbl">Job Active: </string>
+
+    <!-- Manage Hours -->
+    <string name="jobLbl">Job:</string>
+    <string name="limitDates">Limit Dates:</string>
+    <string name="start">Start:</string>
+    <string name="end">End:</string>
+
+</resources>
